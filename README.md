@@ -120,13 +120,17 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+```
 ### 2. Frontend Setup
 
 ```bash
 cd frontend
 npm install
 npm run dev
-Status: Frontend runs at http://localhost:5173🧪 API ReferenceMethodEndpointDescriptionPOST/analyzeUpload a resume file for analysisRequest: multipart/form-data (File)Response:JSON{
+```
+Status: Frontend runs at http://localhost:5173🧪 API ReferenceMethodEndpointDescriptionPOST/analyzeUpload a resume file for analysisRequest: multipart/form-data (File)Response:
+```
+JSON{
   "name": "John Doe",
   "email": "john@gmail.com",
   "phone": "+88017xxxxxxx",
