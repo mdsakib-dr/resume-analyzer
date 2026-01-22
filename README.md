@@ -54,8 +54,7 @@ Unlike rigid parsers, this project handles real-world variability in resume form
 
 ## 🏗️ System Architecture
 
-```mermaid
-graph TD
+mermaid 
     A[User / Client] -->|Upload PDF| B(React Frontend);
     B -->|REST API Request| C{FastAPI Backend};
     C -->|1. Parse PDF| D[pdfplumber];
