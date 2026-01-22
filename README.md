@@ -136,5 +136,6 @@ Status: Frontend runs at http://localhost:5173🧪 API ReferenceMethodEndpointDe
   "classification": "AI/ML Engineer",
   "confidence": 0.89
 }
+```
 
 🚧 Limitations & Future RoadmapCurrent Constraints:⚠️ Resume formats vary widely; OCR is not yet implemented for image-based PDFs.⚠️ Experience calculation relies on explicitly stated dates.🔮 Roadmap:[ ] Add confidence scoring for individual skills.[ ] Resume section segmentation (Education vs. Work).[ ] Multi-language support.[ ] Dockerized deployment.<div align="center">👨‍💻 AuthorMd SakibUndergraduate CSE Student & AI/Full-Stack Enthusiast<a href="https://github.com/mdsakib-dr"><img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-%40mdsakib--dr-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" alt="GitHub" /></a>⭐ <b>Liked this project?</b><i>Give it a star to show your support!</i></div>
